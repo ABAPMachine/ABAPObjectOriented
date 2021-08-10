@@ -21,7 +21,7 @@ CLASS zcl_nums_generator IMPLEMENTATION.
         DATA ls_num TYPE ty_num.
         DATA lv_num TYPE i.
 
-        DO 100 TIMES.
+        DO iv_times TIMES.
           ls_num-num = lv_num.
           APPEND ls_num TO et_nums.
           lv_num = lv_num + 1.
