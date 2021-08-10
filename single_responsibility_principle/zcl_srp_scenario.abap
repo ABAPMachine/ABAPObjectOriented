@@ -1,4 +1,4 @@
-CLASS zcl_srp_sample DEFINITION
+CLASS zcl_srp_scenario DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -19,7 +19,7 @@ CLASS zcl_srp_sample DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_srp_sample IMPLEMENTATION.
+CLASS zcl_srp_scenario IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
