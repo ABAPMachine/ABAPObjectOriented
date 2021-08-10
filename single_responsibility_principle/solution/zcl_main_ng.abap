@@ -20,7 +20,7 @@ CLASS zcl_main_ng IMPLEMENTATION.
     DATA(lr_logger) = NEW zcl_logger(  ).
     DATA(lr_divider) = NEW zcl_divider(  ).
 
-    "Class for generate numbers, could be any methos genarating numbers with different patterns
+    "Class for generate numbers, could be any methods generating numbers with different patterns
     lr_generator->number_counter_generator(
         EXPORTING
             iv_times = 100
